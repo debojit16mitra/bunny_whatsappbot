@@ -48,8 +48,8 @@
             "SUB": "✅ Group name changed.",
             "NEED_SUB": "You must type a group name.",
             "END": "Clear chat",
-            "SEARCH": "To view the current plugin list supported to Queen Amdi.",
-            "AD_DESC": "💠🔑 ●QUEEN AMDI ADMIN PANEL● 🔑💠\n\n⚙️COMMAND: *.setalive*\nℹ️DESCRIPTION: Upload a picture as Alive Logo.\n\n⚙️COMMAND: *.setwelcome*\nℹ️DESCRIPTION: Upload a picture as Welcome Logo.\n\n⚙️COMMAND: *.setbye*\nℹ️DESCRIPTION: Upload a picture as Good bye Logo.\n\n⚙️COMMAND: *.setup <which message>*\nℹ️DESCRIPTION: Easily setup your messages by mentioning text.(Alive, Welcome, Bye, AFK, Ban, Mute, Unmute, Add, Demote, Promote, Block, Unblock, Kickme)\nExample: If you want to set ALIVE_MESSAGE, type *.setup alive* mentioning the message.\n\n⚙️COMMAND: *.ban*\nℹ️DESCRIPTION: Remove someone from the group. Mention the message or tag a person to use command.\n\n⚙️COMMAND: *.add*\nℹ️DESCRIPTION: Adds someone to the group.\n\n⚙️COMMAND: *.mute*\nℹ️DESCRIPTION: Mute group chat. Messages can only be sent by admin. \n\n⚙️COMMAND: *.unmute*\nℹ️DESCRIPTION: Remove group chat mute. Anyone can send a message.\n\n⚙️COMMAND: *.clear*\nℹ️DESCRIPTION: Clearing chat.\n\n⚙️COMMAND: *.subject*\nℹ️DESCRIPTION: Change group name. \n\n⚙️COMMAND: *.promote*\nℹ️DESCRIPTION: Promoting members to admin.\n\n⚙️COMMAND: *.demote*\nℹ️DESCRIPTION: Demoting admins.\n\n⚙️COMMAND: *.search*\nℹ️DESCRIPTION: To view the current plugin list from Queen Amdi.\n\n⚙️COMMAND: *.plugin*\nℹ️DESCRIPTION: Install external plugins.\n\n⚙️COMMAND: *.remove*\nℹ️DESCRIPTION: Removes the plugin.\n\n⚙️COMMAND: *.invite*\nℹ️DESCRIPTION: Provides group invitation link.\n\n⚙️COMMAND: *.afk*\nℹ️DESCRIPTION: It turns bot bot AFK - Away From Keyboard.\n\n⚙️COMMAND: *.restart*\nℹ️DESCRIPTION: Restart the bot.\n\n⚙️COMMAND: *.shutdown*\nℹ️DESCRIPTION: Shutdown the Bot.\n\n⚙️COMMAND: *.setvar*\nℹ️DESCRIPTION: Change heroku config vars.\n\n⚙️COMMAND: *.getvar*\nℹ️DESCRIPTION: Get heroku config var.\n\n⚙️COMMAND: *.speedtest*\nℹ️DESCRIPTION:Check download and upload speed.\n\n⚙️COMMAND: *.filter*\nℹ️DESCRIPTION: It adds filters. If someone writes your filter word, it sends the answer. If you write a .filter it will show your list of filters.\n\n⚙️COMMAND: *.stop*\nℹ️DESCRIPTION: Stops the filters you added earlier.\n\n⚙️COMMAND: *.welcome*\nℹ️DESCRIPTION: It sets the welcome message.\n\n⚙️COMMAND: *.goodbye*\nℹ️DESCRIPTION: Sets the goodbye  message.\n\n⚙️COMMAND: *.kickme*\nℹ️DESCRIPTION: It removes the bot from the group that provided the command.\n\n⚙️COMMAND: *.pp*\nℹ️DESCRIPTION: The photo you mention mentions the bot profile photo.\n\n⚙️COMMAND: *.block*\nℹ️DESCRIPTION: Block tagged user.\n\n⚙️COMMAND: *.unblock*\nℹ️DESCRIPTION: Unblock tagged user.\n\n⚙️COMMAND: *.jid*\nℹ️DESCRIPTION: Giving user JID.\n\n⚙️COMMAND *.tagall*\nℹ️DESCRIPTION: Tag everyone in group.\n\n⚙️COMMAND: *.update*\nℹ️DESCRIPTION: Check for updates.\n\n⚙️COMMAND: *.update now*\nℹ️DESCRIPTION: To update your bot.\n\n⚙️COMMAND: *.dyno*\nℹ️DESCRIPTION: Showing heroku dyno hours.\n\n⚙️COMMAND: *.sysd*\nℹ️DESCRIPTION: Show system properties.\n\n⚙️COMMAND: *.scam*\nℹ️DESCRIPTION: Scam actions for 5min.\n\n*⚠️ The above command only works for Admin, Bot and SUDO numbers.*"
+            "SEARCH": "To view the current plugin list supported to Büññy®Bot.",
+            "AD_DESC": "*●Büññy®Bot ADMIN PANEL●*\n\n⚙️COMMAND: *.setalive*\nℹ️DESCRIPTION: Upload a picture as Alive Logo.\n\n⚙️COMMAND: *.setwelcome*\nℹ️DESCRIPTION: Upload a picture as Welcome Logo.\n\n⚙️COMMAND: *.setbye*\nℹ️DESCRIPTION: Upload a picture as Good bye Logo.\n\n⚙️COMMAND: *.setup <which message>*\nℹ️DESCRIPTION: Easily setup your messages by mentioning text.(Alive, Welcome, Bye, AFK, Ban, Mute, Unmute, Add, Demote, Promote, Block, Unblock, Kickme)\nExample: If you want to set ALIVE_MESSAGE, type *.setup alive* mentioning the message.\n\n⚙️COMMAND: *.ban*\nℹ️DESCRIPTION: Remove someone from the group. Mention the message or tag a person to use command.\n\n⚙️COMMAND: *.add*\nℹ️DESCRIPTION: Adds someone to the group.\n\n⚙️COMMAND: *.mute*\nℹ️DESCRIPTION: Mute group chat. Messages can only be sent by admin. \n\n⚙️COMMAND: *.unmute*\nℹ️DESCRIPTION: Remove group chat mute. Anyone can send a message.\n\n⚙️COMMAND: *.clear*\nℹ️DESCRIPTION: Clearing chat.\n\n⚙️COMMAND: *.subject*\nℹ️DESCRIPTION: Change group name. \n\n⚙️COMMAND: *.promote*\nℹ️DESCRIPTION: Promoting members to admin.\n\n⚙️COMMAND: *.demote*\nℹ️DESCRIPTION: Demoting admins.\n\n⚙️COMMAND: *.search*\nℹ️DESCRIPTION: To view the current plugin list from Büññy®Bot.\n\n⚙️COMMAND: *.plugin*\nℹ️DESCRIPTION: Install external plugins.\n\n⚙️COMMAND: *.remove*\nℹ️DESCRIPTION: Removes the plugin.\n\n⚙️COMMAND: *.invite*\nℹ️DESCRIPTION: Provides group invitation link.\n\n⚙️COMMAND: *.afk*\nℹ️DESCRIPTION: It turns bot bot AFK - Away From Keyboard.\n\n⚙️COMMAND: *.restart*\nℹ️DESCRIPTION: Restart the bot.\n\n⚙️COMMAND: *.shutdown*\nℹ️DESCRIPTION: Shutdown the Bot.\n\n⚙️COMMAND: *.setvar*\nℹ️DESCRIPTION: Change heroku config vars.\n\n⚙️COMMAND: *.getvar*\nℹ️DESCRIPTION: Get heroku config var.\n\n⚙️COMMAND: *.speedtest*\nℹ️DESCRIPTION:Check download and upload speed.\n\n⚙️COMMAND: *.filter*\nℹ️DESCRIPTION: It adds filters. If someone writes your filter word, it sends the answer. If you write a .filter it will show your list of filters.\n\n⚙️COMMAND: *.stop*\nℹ️DESCRIPTION: Stops the filters you added earlier.\n\n⚙️COMMAND: *.welcome*\nℹ️DESCRIPTION: It sets the welcome message.\n\n⚙️COMMAND: *.goodbye*\nℹ️DESCRIPTION: Sets the goodbye  message.\n\n⚙️COMMAND: *.kickme*\nℹ️DESCRIPTION: It removes the bot from the group that provided the command.\n\n⚙️COMMAND: *.pp*\nℹ️DESCRIPTION: The photo you mention mentions the bot profile photo.\n\n⚙️COMMAND: *.block*\nℹ️DESCRIPTION: Block tagged user.\n\n⚙️COMMAND: *.unblock*\nℹ️DESCRIPTION: Unblock tagged user.\n\n⚙️COMMAND: *.jid*\nℹ️DESCRIPTION: Giving user JID.\n\n⚙️COMMAND *.tagall*\nℹ️DESCRIPTION: Tag everyone in group.\n\n⚙️COMMAND: *.update*\nℹ️DESCRIPTION: Check for updates.\n\n⚙️COMMAND: *.update now*\nℹ️DESCRIPTION: To update your bot.\n\n⚙️COMMAND: *.dyno*\nℹ️DESCRIPTION: Showing heroku dyno hours.\n\n⚙️COMMAND: *.sysd*\nℹ️DESCRIPTION: Show system properties.\n\n⚙️COMMAND: *.scam*\nℹ️DESCRIPTION: Scam actions for 5min.\n\n*⚠️ The above command only works for Admin, Bot and SUDO numbers.*"
         },
         "locate": {
             "L_DESC": "It sends your locations.",
@@ -84,7 +84,7 @@
             "MUST_TEXT": "```Please tag any message```"
         },
         "heroku": {
-            "RESTART_DESC": "Restart Queen Amdi",
+            "RESTART_DESC": "Restart Büññy®Bot",
             "RESTART_MSG": "```♻️ Restarting...```",
             "SHUTDOWN_DESC": "To shut down bot",
             "SHUTDOWN_MSG": "```Shutdown ⛔```",
@@ -281,7 +281,7 @@
             "INVALID_HEROKU": "*❌ Your HEROKU_API_KEY wrong! Visit https://dashboard.heroku.com/account . Scroll down to API key. Click reveal buttong. Copy that API key and paste it in HEROKU_API_KEY config vars.*",
             "UPDATED": "*✅ Successfully updated!*",
             "UPDATED_LOCAL": "*✅ Successfully updated!*",
-            "AFTER_UPDATE": "*💬 Queen Amdi automatically restarting!*",
+            "AFTER_UPDATE": "*💬 Büññy®Bot automatically restarting!*",
             "VERIFY_DESC": "Verify your bot officially.",
             "VERIFY": "*Your bot is verified!✅*",
             "VERIFIED": "*✅ Successfully verified!*",
@@ -428,7 +428,7 @@
         "deepai": {
             "DEEPAI_DESC": "AI chat(OLD)",
             "TEXT": "*You must enter text! Although I am a powerful artificial intelligence, I cannot read your thoughts!*",
-            "URL": "*You must enter the image URL!*\n*Example:* https://i.ibb.co/5rt16dP/Queen-Amdi.jpg"
+            "URL": "*You must enter the image URL!*\n*Example:* https://telegra.ph/file/fe4c3a45f781bf1009946.jpg"
         },
         "ttp": {
             "TTP_DESC": "Make text image",
@@ -461,7 +461,7 @@
             "SAVE_USAGE": "Reply *.save* to a message or type *.save <your_note>*",
             "REPLY": "Please give me the note.",
             "SUCCESSFULLY_ADDED": "Successfully added new note, check your notes with .notes.",
-            "UNSUCCESSFUL": "Could not add note, please try again later or contact QueenAmdi developers.",
+            "UNSUCCESSFUL": "Could not add note, please try again later or contact Büññy®Bot developers.",
             "DELETE_USAGE": "Clear your all notes.",
             "SUCCESSFULLY_DELETED": "Successfully deleted all your notes."
         },
@@ -593,7 +593,7 @@
             "ID_WORD": "║ _Report ID :_ ",
             "USER": "║ _User :_ ",
             "REASON": "║ _Reason :_ ",
-            "END": "╚═➤ *✘👸🏻♥️𝚀𝚞𝚎𝚎𝚗 𝙰𝚖𝚍𝚒 𝙿𝚞𝚋𝚕𝚒𝚌♥️👸🏻✘* ═➤",
+            "END": "╚═➤ *✘👸🏻♥️Büññy®Bot♥️👸🏻✘* ═➤",
             "REPLY": "Please reply to a message",
             "BR": "║"
         },
