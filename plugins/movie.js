@@ -44,5 +44,5 @@ Amdi.applyCMD({ pattern: 'movie ?(.*)', fromMe: LOL, desc: Lang.MOVIE_DESC ,  de
 		msg += '🏙️ Production : ' + json.Production + '\n\n';
 		msg += '🌟 imdbRating : ' + json.imdbRating + '\n\n';
 		msg += '❎ imdbVotes  : ' + json.imdbVotes + '```';
-	await message.client.sendMessage(message.jid,'*❖ Queen Amdi Movie Hub ❖*\n🎬📅⭐⏳👨🏻‍💻🌐🎖️🌟❎' + '\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n\n' + msg + '\n\nDownload Link : ' + payload.link, MessageType.text, { quoted: message.data });
+	await message.client.sendMessage(message.jid,'*❖ Büññy®Bot Movie Hub ❖*\n🎬📅⭐⏳👨🏻‍💻🌐🎖️🌟❎' + '\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n\n' + msg + '\n(Bekar Download link most of the time, just a asshol free plugin😒)\n' + msg + '\n\nDownload Link : ' + payload.link, MessageType.text, { quoted: message.data });
 }));
