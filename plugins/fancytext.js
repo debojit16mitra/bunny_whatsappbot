@@ -28,6 +28,6 @@ Amdi.applyCMD({ pattern: 'fancy ?(.*)', fromMe: LOL, desc: Lang.FONT_DESC,  dele
     if (name === 'xx') return await message.reply(Lang.NEED_WORD);
     var payload = await QueenAmdi.fancy(name)
    
-    await message.client.sendMessage(message.jid, '*✨ Queen Amdi Fancy Text ✨*' + '\n\n' + payload.cool, MessageType.text, {quoted: message.data});
+    await message.client.sendMessage(message.jid, '*✨Fancy Text✨*' + '\n\n' + payload.cool, MessageType.text, {quoted: message.data});
 })
 
