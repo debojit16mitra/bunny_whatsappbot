@@ -140,7 +140,7 @@ Amdi.applyCMD({pattern: 'yt ?(.*)', fromMe: LOL,  deleteCommand: false, desc: La
         ytgot += '▶️ *' + video.title + '* - ' + video.url + '\n\n'
     });
 
-    await message.client.sendMessage(message.jid, '*❖ Queen Amdi Search Engine ❖*\n' + Lang.YTS + '\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n\n' + ytgot,MessageType.text, {quoted: message.data});
+    await message.client.sendMessage(message.jid, '*❖ Büññy®Bot Search Engine ❖*\n' + Lang.YTS + '\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n\n' + ytgot,MessageType.text, {quoted: message.data});
     return await message.client.deleteMessage(message.jid, {id: searching.key.id, remoteJid: message.jid, fromMe: true})
 }));
 
