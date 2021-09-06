@@ -883,7 +883,7 @@ if (Config.LANG == 'SI') {
             .format('mp4')
             .save('output.mp4')
             .on('end', async () => {
-                await message.sendMessage(fs.readFileSync('output.mp4'), MessageType.video, {caption: `Copyright © 2021 | Queen Amdi\n_Interpolated to ${match[1]} FPS_`});
+                await message.sendMessage(fs.readFileSync('output.mp4'), MessageType.video, {caption: `Copyright © 2021 | Büññy®Bot\n_Interpolated to ${match[1]} FPS_`});
             });
         return await message.client.deleteMessage(message.jid, {id: downloading.key.id, remoteJid: message.jid, fromMe: LOL})
     }));
@@ -1104,7 +1104,7 @@ if (Config.LANG == 'SI') {
             .format('mp4')
             .save('slowmo.mp4')
             .on('end', async () => {
-                await message.sendMessage(fs.readFileSync('slowmo.mp4'), MessageType.video, {caption: 'True Slow-Motion by Queen Amdi'});
+                await message.sendMessage(fs.readFileSync('slowmo.mp4'), MessageType.video, {caption: 'True Slow-Motion by Büññy®Bot'});
             });
         return await message.client.deleteMessage(message.jid, {id: downloading.key.id, remoteJid: message.jid, fromMe: LOL})
     }));
