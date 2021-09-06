@@ -120,11 +120,11 @@ Amdi.applyCMD({pattern: 'sticvid$', fromMe: LOL, desc: Lang.ANI_STICK,  deleteCo
     });
     await webp2mp4File(savedFilename).then(async (rest) => {
         await Axios({ method: "GET", url: rest.result, responseType: "stream"}).then(({ data }) => {
-            const saving = data.pipe(fs.createWriteStream('/root/QueenAmdi/vstic.mp4')) //OI OI MEKA WENAS KRAN ROOT
+            const saving = data.pipe(fs.createWriteStream('/root/bunny_whatsappbot1/vstic.mp4')) //OI OI MEKA WENAS KRAN ROOT
             saving.on("finish", async () => {
-                await message.client.sendMessage(msgid, fs.readFileSync('/root/QueenAmdi/vstic.mp4'), MessageType.video, { mimetype: Mimetype.mp4, caption: Config.CAP, quoted: message.data , thumbnail: thumb })
+                await message.client.sendMessage(msgid, fs.readFileSync('/root/bunny_whatsappbot1/vstic.mp4'), MessageType.video, { mimetype: Mimetype.mp4, caption: Config.CAP, quoted: message.data , thumbnail: thumb })
                 if (fs.existsSync(savedFilename)) fs.unlinkSync(savedFilename)
-                if (fs.existsSync('/root/QueenAmdi/vstic.mp4')) fs.unlinkSync('/root/QueenAmdi/vstic.mp4')
+                if (fs.existsSync('/root/bunny_whatsappbot1/vstic.mp4')) fs.unlinkSync('/root/bunny_whatsappbot1/vstic.mp4')
             })
         })
     })
