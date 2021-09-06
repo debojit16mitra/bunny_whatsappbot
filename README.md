@@ -66,7 +66,7 @@
 
   </a>
 </p>
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/debojit16mitra/bunny_whatsappbot1/tree/v1)
+
 ```
 Queen Amdi bot is an UserBot for WhatsApp That allowing you to get done so many tasks.
 The user is responsible for all possible consequences of misuse.
@@ -83,7 +83,7 @@ QR Code generator and full instructions available there.
 	<a href="https://www.amdaniwasa.com">
 <img src="https://i.ibb.co/dr27VyW/59060c190cbeef0acff9a657.png" width="200"></br></a>
 </div>
-
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/debojit16mitra/bunny_whatsappbot1/tree/v1)
 ## Queen Amdi Team
 
 <table>
