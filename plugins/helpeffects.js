@@ -105,7 +105,7 @@ const eng = `💠●*Text To Image Effect List*●💠\n\n` +
 `⚙️Command: *.lionlogo*\nℹ️Description: Text to lion logo.\n_(Ex: .lionlogo Büññy®/Bot)_\n\n` + 
 `⚙️Command: *.pornhub*\nℹ️Description: Text to PornHub themed logo.\nType */* to split two words.\n\n` + 
 `⚙️Command: *.sandwriting*\nℹ️Description: Text to sand themed logo.\n\n` + 
-`⚙️Command: *.vintage*\nℹ️Description: Text to bulb display unit. \n_(Ex: .vintage Büññy®/Bot_\n\n` + 
+`⚙️Command: *.vintage*\nℹ️Description: Text to bulb display unit. \n_(Ex: .vintage Büññy®/Bot)_\n\n` + 
 `⚙️Command: *.bplogo*\nℹ️Description: Text to Black Pink themed logo.\n\n` + 
 `⚙️Command: *.blood*\nℹ️Description: Text to Blood themed.\n\n` + 
 `⚙️Command: *.silk*\nℹ️Description: Text to silk cloth.\n\n` + 
