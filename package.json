@@ -2,13 +2,13 @@
   "name": "queen_amdi",
   "version": "3.0.0v",
   "description": "Queen Amdi Bot project - a Whatsapp userbot helping to improve your Whatsapp experience.",
-  "main": "./QueenAmdi/bot.js",
+  "main": "./bunny_whatsappbot1/bot.js",
   "scripts": {
     "start": "supervisor -s bot.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/BlackAmda/QueenAmdi.git"
+    "url": "git+https://github.com/debojit16mitra/bunny_whatsappbot1.git"
   },
   "keywords": [
     "whatsapp"
@@ -17,9 +17,9 @@
   "developer": "AN Tech",
   "license": "GPL-3.0-or-later",
   "bugs": {
-    "url": "https://github.com/BlackAmda/QueenAmdi/issues"
+    "url": "https://github.com/debojit16mitra/bunny_whatsappbot1/issues"
   },
-  "homepage": "https://github.com/BlackAmda/QueenAmdi#readme",
+  "homepage": "https://github.com/debojit16mitra/bunny_whatsappbot1#readme",
   "dependencies": {
     "queenamdi-public-1":"1.0.0",
     "queenamdi-img": "1.0.0",
