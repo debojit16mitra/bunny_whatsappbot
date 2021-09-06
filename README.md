@@ -76,14 +76,14 @@ Install their own plugins to the original software and use as they please.
 Usage is entirely the responsibility of the user. The operating system is not responsible.
 HAVE A FUN!
 ```
-
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/debojit16mitra/bunny_whatsappbot1/tree/v1)
 ## Visit our official website to install the Whatsapp Bot :
 QR Code generator and full instructions available there.
 <div>
 	<a href="https://www.amdaniwasa.com">
 <img src="https://i.ibb.co/dr27VyW/59060c190cbeef0acff9a657.png" width="200"></br></a>
 </div>
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/debojit16mitra/bunny_whatsappbot1/tree/v1)
+
 ## Queen Amdi Team
 
 <table>
