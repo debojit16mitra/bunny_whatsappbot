@@ -66,7 +66,7 @@
 
   </a>
 </p>
-
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/debojit16mitra/bunny_whatsappbot1/tree/v1)
 ```
 Queen Amdi bot is an UserBot for WhatsApp That allowing you to get done so many tasks.
 The user is responsible for all possible consequences of misuse.
