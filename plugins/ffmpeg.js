@@ -58,7 +58,7 @@ Amdi.applyCMD({pattern: 'ffmpeg ?(.*)', fromMe: LOL,  deleteCommand: false, desc
                 .videoFilters(`${match[1]}`)
                 .save('output.jpg')
                 .on('end', async () => {
-                    await message.sendMessage(fs.readFileSync('output.jpg'), MessageType.image, {mimetype: Mimetype.jpg, caption: Config.CAP + '\n\nᴳᵉⁿᵉʳᵃᵗᵉᵈ ᴮʸ Qᵘᵉᵉⁿ ᴬᵐᵈᶦ₂₀₂₁'});
+                    await message.sendMessage(fs.readFileSync('output.jpg'), MessageType.image, {mimetype: Mimetype.jpg, caption: Config.CAP + '\n\nᴳᵉⁿᵉʳᵃᵗᵉᵈ ᴮʸ Büññy®₂₀₂₁'});
                 });
             return await message.client.deleteMessage(message.jid, {id: downloading.key.id, remoteJid: message.jid, fromMe: LOL})
         }
