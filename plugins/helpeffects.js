@@ -13,8 +13,8 @@ const {MessageType} = require('@adiwajshing/baileys');
 const Language = require('../language');
 const Lang = Language.getString('scrapers');
 
-const sin = `💠📃 ● *Text සිට Image Effect List* ● 📃💠\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n\n` + 
-`⚙️විධානය: *.glitch*\nℹ️විස්තර: Text සිට Tiktok glitch effect.\n_(Ex: .glitch Queen;Amdi)_\n\n` + 
+const sin = `💠●*Text සිට Image Effect List*●💠\n\n` + 
+`⚙️විධානය: *.glitch*\nℹ️විස්තර: Text සිට Tiktok glitch effect.\n_(Ex: .glitch Büññy®;Bot)_\n\n` + 
 `⚙️විධානය: *.pemoji*\nℹ️විස්තර: Emoji සිට පින්තූරයට.\n\n` + 
 `⚙️විධානය: *.hacker*\nℹ️විස්තර: ඔබේ නම සමඟ hacker wallpaper සෑදීම.\n\n` + 
 `⚙️විධානය: *.matrix*\nℹ️විස්තර: ඔබේ නම සමඟ matrix wallpaper සෑදීම.\n\n` + 
@@ -32,18 +32,18 @@ const sin = `💠📃 ● *Text සිට Image Effect List* ● 📃💠\n▬�
 `⚙️විධානය: *.naruto*\nℹ️විස්තර: Naruto themed බැනරයකින් ඔබේ text ටයිප් කළ හැකිය.\n\n` + 
 `⚙️විධානය: *.fflogo*\nℹ️විස්තර: ඔබේ නම සමඟ Free Fire logo සෑදීම.\n\n` + 
 `⚙️විධානය: *.flame*\nℹ️විස්තර: ඔබට ඔබේ text ගිනිදැල් බවට පත් කළ හැකිය.\n\n` + 
-`⚙️විධානය: *.avenger*\nℹ️විස්තර: ඔබේ නම සමඟ Avengers logo සෑදීම.\n_(Ex: .avenger Queen/Amdi)_\n\n` + 
+`⚙️විධානය: *.avenger*\nℹ️විස්තර: ඔබේ නම සමඟ Avengers logo සෑදීම.\n_(Ex: .avenger Büññy®/Bot)_\n\n` + 
 `⚙️විධානය: *.harry*\nℹ️විස්තර: ඔබට හැරීපොටර් වර්ගයේ logo සෑදිය හැකිය.\n\n` + 
 `⚙️විධානය: *.dota*\nℹ️විස්තර: ඔබේ නම සමඟ DOTA logo සෑදිය හැකිය.\n\n` + 
 `⚙️විධානය: *.lol*\nℹ️විස්තර: ඔබේ නම සමඟ LEAGUE OF LEGENDS logo සෑදිය හැකිය.\n\n` + 
 `⚙️විධානය: *.aov*\nℹ️විස්තර: ඔබේ නම සමඟ Arena Of Valor logo සෑදිය හැකිය.\n\n` + 
 `⚙️විධානය: *.ml*\nℹ️විස්තර: ඔබේ නම සමඟ Mobile Legends logo සෑදිය හැකිය.\n\n` + 
-`⚙️විධානය: *.valorant*\nℹ️විස්තර: ඔබේ නම සමඟ valorant logo සෑදිය හැකිය. \n_(Ex: .valorant QueenAmdi/Facebook/Twitter)_\n\n` + 
-`⚙️විධානය: *.lionlogo*\nℹ️විස්තර: ඔබේ නම සමඟ lion logo සෑදීම.\n_(Ex: .lionlogo Queen/Amdi)_\n\n` + 
+`⚙️විධානය: *.valorant*\nℹ️විස්තර: ඔබේ නම සමඟ valorant logo සෑදිය හැකිය. \n_(Ex: .valorant Büññy®Bot/Facebook/Twitter)_\n\n` + 
+`⚙️විධානය: *.lionlogo*\nℹ️විස්තර: ඔබේ නම සමඟ lion logo සෑදීම.\n_(Ex: .lionlogo Büññy®/Bot)_\n\n` + 
 `⚙️විධානය: *.metal*\nℹ️විස්තර: ඔබේ නම සමඟ iron logo සෑදීම.\n\n` + 
 `⚙️විධානය: *.pornhub*\nℹ️විස්තර: එය සපයා ඇති text කළු පැහැති තැඹිලි පාට රූපයක් යවයි.\nඔබ පිළිවෙලින් */* මගින් වෙන් කර ඇති top සහ bottom text ඇතුළත් කළ යුතුය.\n\n` + 
 `⚙️විධානය: *.sandwriting*\nℹ️විස්තර: එය සපයා ඇති textයේ වැලි රූපයක් යවයි.\n\n` + 
-`⚙️විධානය: *.vintage*\nℹ️විස්තර: එය සපයා ඇති textයේ buld display රූපයක් යවයි. \n_(Ex: .vintage Queen/Amdi_\n\n` + 
+`⚙️විධානය: *.vintage*\nℹ️විස්තර: එය සපයා ඇති textයේ buld display රූපයක් යවයි. \n_(Ex: .vintage Büññy®/Bot_\n\n` + 
 `⚙️විධානය: *.bplogo*\nℹ️විස්තර: එය සපයා ඇති textයේ black pink logo යවයි.\n\n` + 
 `⚙️විධානය: *.blood*\nℹ️විස්තර: එය සපයා ඇති textයේ රුධිර රූපයක් යවයි.\n\n` + 
 `⚙️විධානය: *.silk*\nℹ️විස්තර: එය සපයා ඇති textයේ silk cloth රූපයක් යවයි.\n\n` + 
@@ -81,8 +81,8 @@ const sin = `💠📃 ● *Text සිට Image Effect List* ● 📃💠\n▬�
 `⚙️විධානය: *gneon*\nℹ️විස්තර: සපයා ඇති text සමඟ gneon තේමා රූපයක් සෑදිය හැකියි.\n\n` +
 `Check official website : https://www.amdaniwasa.com/`
 
-const eng = `💠📃 ● *Text to effect images List* ● 📃💠\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n\n` + 
-`⚙️Command: *.glitch*\nℹ️Description: Text to Tiktok glitch effect.\n_(Ex: .glitch Queen;Amdi)_\n\n` + 
+const eng = `💠●*Text To Image Effect List*●💠\n\n` + 
+`⚙️Command: *.glitch*\nℹ️Description: Text to Tiktok glitch effect.\n_(Ex: .glitch Büññy®;Bot)_\n\n` + 
 `⚙️Command: *.pemoji*\nℹ️Description: Emoji to PNG.\n\n` + 
 `⚙️Command: *.hacker*\nℹ️Description: Text to Hacker wallpaper.\n\n` + 
 `⚙️Command: *.matrix*\nℹ️Description: Text to matrix wallpaper\n\n` + 
@@ -100,18 +100,18 @@ const eng = `💠📃 ● *Text to effect images List* ● 📃💠\n▬▬▬�
 `⚙️Command: *.naruto*\nℹ️Description: Text to naruto themed banner.\n\n` + 
 `⚙️Command: *.fflogo*\nℹ️Description: Text to FreeFire logo\n\n` + 
 `⚙️Command: *.flame*\nℹ️Description: Text to fire effect.\n\n` + 
-`⚙️Command: *.avenger*\nℹ️Description: Text to avenger logo\n_(Ex: .avenger Queen/Amdi)_\n\n` + 
+`⚙️Command: *.avenger*\nℹ️Description: Text to avenger logo\n_(Ex: .avenger Büññy®/Bot)_\n\n` + 
 `⚙️Command: *.harrypoter*\nℹ️Description: Text to harry potter themed logo.\n\n` + 
 `⚙️Command: *.dota*\nℹ️Description: Text to DOTA logo.\n\n` + 
 `⚙️Command: *.lol*\nℹ️Description: Text to League Of Legends logo.\n\n` + 
 `⚙️Command: *.aov*\nℹ️Description: Text to  Arena Of Valor logo.\n\n` + 
 `⚙️Command: *.ml*\nℹ️Description: Text to Mobile Legends logo.\n\n` + 
-`⚙️Command: *.valorant*\nℹ️Description: Text to Valorant Banner. \n_(Ex: .valorant QueenAmdi/Facebook/Twitter)_\n\n` + 
-`⚙️Command: *.lionlogo*\nℹ️Description: Text to lion logo.\n_(Ex: .lionlogo Queen/Amdi)_\n\n` + 
+`⚙️Command: *.valorant*\nℹ️Description: Text to Valorant Banner. \n_(Ex: .valorant Büññy®Bot/Facebook/Twitter)_\n\n` + 
+`⚙️Command: *.lionlogo*\nℹ️Description: Text to lion logo.\n_(Ex: .lionlogo Büññy®/Bot)_\n\n` + 
 `⚙️Command: *.metal*\nℹ️Description: Text to metalic logo.\n\n` + 
 `⚙️Command: *.pornhub*\nℹ️Description: Text to PornHub themed logo.\nType */* to split two words.\n\n` + 
 `⚙️Command: *.sandwriting*\nℹ️Description: Text to sand themed logo.\n\n` + 
-`⚙️Command: *.vintage*\nℹ️Description: Text to bulb display unit. \n_(Ex: .vintage Queen/Amdi_\n\n` + 
+`⚙️Command: *.vintage*\nℹ️Description: Text to bulb display unit. \n_(Ex: .vintage Büññy®/Bot_\n\n` + 
 `⚙️Command: *.bplogo*\nℹ️Description: Text to Black Pink themed logo.\n\n` + 
 `⚙️Command: *.blood*\nℹ️Description: Text to Blood themed.\n\n` + 
 `⚙️Command: *.silk*\nℹ️Description: Text to silk cloth.\n\n` + 
@@ -132,7 +132,7 @@ const eng = `💠📃 ● *Text to effect images List* ● 📃💠\n▬▬▬�
 `⚙️Command: *thunder*\nℹ️Description: Make thunder themed photo with your text.\n\n` +
 `⚙️Command: *magma*\nℹ️Description: Make magma themed photo with your text.\n\n` +
 `⚙️Command: *stone*\nℹ️Description: Make stone themed photo with your text.\n\n` +
-`⚙️Command: *2glitch*\nℹ️Description: Make glitch themed photo with your text.\n_(Ex: .glitch Queen;Amdi)_\n\n` +
+`⚙️Command: *2glitch*\nℹ️Description: Make glitch themed photo with your text.\n_(Ex: .glitch Büññy®;Bot)_\n\n` +
 `⚙️Command: *harry*\nℹ️Description: Make harry potter themed photo with your text.\n\n` +
 `⚙️Command: *cracked*\nℹ️Description: Make cracked themed photo with your text.\n\n` +
 `⚙️Command: *glass*\nℹ️Description: Make glass themed photo with your text.\n\n` +
