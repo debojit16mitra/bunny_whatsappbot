@@ -77,6 +77,7 @@ Usage is entirely the responsibility of the user. The operating system is not re
 HAVE A FUN!
 ```
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/debojit16mitra/bunny_whatsappbot1/tree/v1)
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https%3A%2F%2Fgithub.com%2Fdebojit16mitra%2Fbunny_whatsappbot1)
 ## Visit our official website to install the Whatsapp Bot :
 QR Code generator and full instructions available there.
 <div>
