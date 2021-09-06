@@ -197,6 +197,8 @@
             "UNKNOWN_ERROR": "```There was an error. Foreign currency transaction failed!```",
             "TTS_DESC": "It translates words into voice messages.",
             "TTS_ERROR": "```Error, you can't voice message in your sentence!```",
+            "SONG_DESC": "Outdated rarely works better use .spotify and .getspo",
+            "NEED_TEXT_SONG": "*Please give me song name!*\n*Example:* ```.song build a bitch```",
             "NO_RESULT": "*I could not find anything. :(*",
             "YTS": "_📡 Based site : YouTube_",
             "DOWNLOADING_SONG": "\n```🔄 Downloading your song...```\n",
@@ -225,6 +227,8 @@
             "SPDF_DESC": "Converts a Site into PDF",
             "SPDF_PROC": "\n```Converting Site into PDF```\n",
             "SPDF_LINK": "*Must Enter a URL*",
+            "WAME_DESC": "Its useless, not working bro",
+            "WAME": "```Chat link from```@{}: https://wa.me/{}",
             "NEED_UWONG": "*Give me a user!*",
             "FBDESC": "Download Facebook videos.",
             "NOT_FOUNDFB": "Can't find the video",
@@ -236,8 +240,8 @@
             "MOVIE_DESC": "Giving you movie details and download link.",
             "MOVIE_NAME": "Please give me a movie name.",
             "APK_DESC": "Download APK files.",
-            "APK_NEED": "Please enter a playstore app link.",
-            "NO_APK": "Please enter a valid playstore app link.",
+            "APK_NEED": "Please enter a playstore app link.\nYou can search playstore by *.getpack* command.",
+            "NO_APK": "Please enter a valid playstore app link.\nYou can search playstore by *.getpack* command.",
             "APK_DW": "\n🔄 Downloading your APK...\n",
             "APK_UP": "\n🔄 Uploading your APK...\n",
             "APK_D": "*▸ 📚APK Details📚 ◂*\n\n",
@@ -296,8 +300,12 @@
             "NOT_FOUND": "```I can't find that place. 😖```"
         },
         "web": {
+            "SPEEDTEST_DESC": "Check download and upload speed, *NOT WORKING*",
+            "SPEEDTESTING": "\n```🔄 Running speed test...```\n",
+            "SPEEDTEST_RESULT": "*✅ Speed ​​test completed!*",
             "UPLOAD": "Upload",
             "DOWNLOAD": "Download",
+            "PING_DESC": "Your ping.*NOT WORKING*",
             "URL": "Shorten link."
         },
         "conventer": {
@@ -474,6 +482,28 @@
             "POST_COUNT":"Post",
             "HL_COUNT":"Highlight story"
         },
+        "github": {
+            "GİTHUB_DESC": "Stalk github profiles of given username.\n⌨️ Example: .github debojit16mitra",
+            "REPLY": "```Please type github username!```",
+            "NOT": "```User not found!```",
+            "FOLLOWERS": "Followers:",
+            "NAME": "Name:",
+            "USERNAME": "Username:",
+            "REPO": "Public Repos:",
+            "BİO": "Biography:",
+            "FOLLOWİNG": "Following:",
+            "COMPANY": "Company:",
+            "BLOG": "Blog:",
+            "MAİL": "Mail Address:",
+            "LOCATİON": "Location:",
+            "GİST": "Public Gists:",
+            "JOİN": "Joining Date:",
+            "HİRE_FALSE": "Cannot Hirable 🚫",
+            "HİRE_TRUE": "Hirable ☑️",
+            "HİRE": "Can s/he Hirable?:",
+            "URL": "Profile URL:",
+            "UPDATE": "Last Update:"
+        },
         "info": {
             "INFO_DESC": "Show chat details",
             "GRP_NAME": "*ℹ️ Group name :*",
@@ -504,8 +534,26 @@
         },
         "random_pic":{
             "BTS_DESC": "Get BTS random images.",
+            "EXO_DESC" : "Get EXO random images.*NOT WORKING*",
             "BP_DESC": "Get Black Pink random images.",
             "ewall": "Get random Aesthetic wallpapers"
+        },
+        "tiktok":{
+            "TK_DESC": "Stalk tiktok profile to a given username.\n⌨️ Example: .tk _black.amda_",
+            "REPLY": "```Please enter a valid tiktok username!```",
+            "USERNAME": "Username :",
+            "NAME": "Nickname :",
+            "BIO": "Bio :",
+            "FOLLOWERS": "Followers :",
+            "FOLLOWING": "Followings :",
+            "LIKES": "Likes :",
+            "VIDEOS": "Videos :",
+            "NOT": "```User not found!```",
+            "TIKTOK_DESC": "Download without watermark videos from Tiktok, better not to use😂",
+            "NEED_WORD": "Must Enter a tiktok link!",
+            "DLOAD_TK": "\n```🔄 Your tiktok is downloading...```\n",
+            "UPLOADING_TK": "\n```🔂 Your tiktok is uploading...```\n",
+            "INVALID_TK": "*I could not find anything :(*"
         },
         "lyric":{
             "LY_DESC": "Song lyrics.",
@@ -520,9 +568,11 @@
             "NOT_FOUND": "*I could not find this😔*",
             "SPO_USAGE": "Search songs from spotify.",
             "SPOTIFY": "_📡 Based site : https://open.spotify.com/_",
+            "APK_DESC": "Search APK package names from playstore. *NOT WORKING*",
             "PSTORE": "_📡 Based site : Official Playstore_",
             "FIND_DESC": "Search songs by audio file.",
             "NEED": "```Reply to an audio!```",
+            "SONG": "_📡 Based site : https://audd.io/_"
         },
         "information":{
             "COVID_DESC": "Check information about Covid-19 of countries.\nExample : .covid Sri Lanka",
